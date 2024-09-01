@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100vw;
+}
+/* div´s */
+section{
+    padding: 30px;
+    
+}
+article{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#time{
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    
+}
+/* div´s */
+/* ------------------------------------------ */
+/* titulos */
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    line-height: 1em;
+}
+h1{
+    font-size: 9vw;
+    margin-bottom: 5vw;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 2em;
+    margin-top: 40px;
+}
+h3{
+    font-family: "outfit";
+    font-size: 1.1em;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 5vw;
+}
+/*titulos*/
+/* ------------------------------------------ */
+/* letras */
+li{
+    line-height: 1.4em;
+    margin-left: 20px;
+    margin-bottom: 1.2em;
+    width: 100%;
+}
+ #instructions p, #time p{
+    padding-left: 10px;
+    width: 95%;
+}
+
+#ingredients li p{
+    margin-left: 20px;
+}
+#ingredients ul{
+    margin-left: 20px;
+}
+p,li{
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+}
+strong{
+    color: hsl(10, 4%, 27%);
+}
+::marker {
+    color:  hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+/* letras */
+/* tabela */
+table{
+    width: 100%;
+    font-weight: 500;
+    font-family: "outfit";
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table .value-table{
+    color:  hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+ table tr{
+    border-bottom: 1px solid hsla(10, 4%, 27%, 0.171);
+ }
+ td{
+    padding: 1em 2em;
+ }
+ /* media query */
+ @media (min-width: 850px) {
+    body{
+        background-color: hsl(26, 76%, 92%);
+        padding: 90px;
+    }
+	main{
+        box-shadow: 1px 0 2px rgba(0, 0, 0, 0.123);
+        border-radius: 30px;
+        padding: 30px;
+        width: 50%;
+        margin:auto;
+        background-color: aliceblue;
+        
+    }
+    h1{
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
+    img{
+        box-shadow: 1px 0 2px rgba(0, 0, 0, 0.123);
+        width: 100%;
+        border-radius: 25px;
+    }
+}
+
+
